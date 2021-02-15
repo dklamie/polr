@@ -9,9 +9,9 @@
 <div ng-controller="AdminCtrl" class="ng-root">
     <div class='col-md-2'>
         <ul class='nav nav-pills nav-stacked admin-nav' role='tablist'>
-            <li role='presentation' aria-controls="home" class='admin-nav-item active'><a href='#home'>Home</a></li>
-            <li role='presentation' aria-controls="links" class='admin-nav-item'><a href='#links'>Links</a></li>
-            <li role='presentation' aria-controls="settings" class='admin-nav-item'><a href='#settings'>Settings</a></li>
+            <li role='presentation' aria-controls="home" class='admin-nav-item active'><a href='#home'>Dashboard</a></li>
+            <li role='presentation' aria-controls="links" class='admin-nav-item'><a href='#links'>Linkovi</a></li>
+            <li role='presentation' aria-controls="settings" class='admin-nav-item'><a href='#settings'>Postavke</a></li>
 
             @if ($role == $admin_role)
             <li role='presentation' class='admin-nav-item'><a href='#admin'>Admin</a></li>
